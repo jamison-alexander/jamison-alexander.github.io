@@ -1,6 +1,6 @@
 {
-  "homepage": "http://jamison-alexander.github.io/test-app",
-  "name": "test-app",
+  "name": "jamison-alexander.github.io",
+  "homepage": "http://jamison-alexander.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"predeploy": "npm run build",
-	"deploy": "npm install gh-pages --save-dev"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
