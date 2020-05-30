@@ -1,6 +1,7 @@
 {
   "name": "jamison-alexander.github.io",
   "homepage": "http://jamison-alexander.github.io/",
+  "repository": "https://github.com/jamison-alexander/jamison-alexander.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
