@@ -13,7 +13,7 @@ import { NoMatch } from './NoMatch';
 function App() {
   return (
     <React.Fragment>
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
   <NavigationBar />
   <Switch>
   <Route exact path="/" component={Home} />
