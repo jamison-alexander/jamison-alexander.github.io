@@ -9,6 +9,7 @@ import { Bio } from './Bio';
 import { NoMatch } from './NoMatch';
 
 
+
 function App() {
   return (
     <React.Fragment>
@@ -16,8 +17,8 @@ function App() {
   <NavigationBar />
   <Switch>
   <Route exact path="/" component={Home} />
-  <Route path="/resume" component={Resume} />
-  <Route path="/bio" component={Bio} />
+  <Route path={process.env.PUBLIC_URL + '/resume'} component={Resume} />
+  <Route path={process.env.PUBLIC_URL + '/bio'} component={Bio} />
   <Route component={NoMatch} />
 </Switch>
     
